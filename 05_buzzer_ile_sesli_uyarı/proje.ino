@@ -1,7 +1,14 @@
+// Buzzer ile sesli uyarı örneği
+int buzzerPin = 2;      // Buzzer 2. pine bağlı
+int delayTime = 1000;   // Uyarı aralığı (ms) - burada 1 saniye
 
-// Buzzer Uyarı
-void setup(){}
-void loop(){
-  tone(8, 1000); delay(500);
-  noTone(8);     delay(500);
+void setup() {
+  pinMode(buzzerPin, OUTPUT); // Buzzer pinini çıkış olarak ayarla
+}
+
+void loop() {
+  digitalWrite(buzzerPin, HIGH); // Buzzer'ı aç
+  delay(500);                    // 0.5 saniye çalmasını bekle
+  digitalWrite(buzzerPin, LOW);  // Buzzer'ı kapat
+  delay(delayTime);               // Belirlediğin aralık kadar bekle
 }
