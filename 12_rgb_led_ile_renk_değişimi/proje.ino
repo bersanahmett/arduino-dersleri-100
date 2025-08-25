@@ -1,12 +1,21 @@
+int kled = 11;
+int yled = 10;
+int mled = 9;
 
-// RGB PWM
-const int R=9,G=10,B=11;
-void setup(){ pinMode(R,OUTPUT); pinMode(G,OUTPUT); pinMode(B,OUTPUT); }
-void setRGB(int r,int g,int b){ analogWrite(R,r); analogWrite(G,g); analogWrite(B,b); }
-void loop(){
-  for(int i=0;i<=255;i+=5){ setRGB(i,0,0); delay(20); }
-  for(int i=0;i<=255;i+=5){ setRGB(0,i,0); delay(20); }
-  for(int i=0;i<=255;i+=5){ setRGB(0,0,i); delay(20); }
-  setRGB(255,255,255); delay(500);
-  setRGB(0,0,0); delay(500);
+void setup() {
+
+pinMode(kled, OUTPUT);
+pinMode(yled, OUTPUT);
+pinMode(mled, OUTPUT);
+}
+void loop() 
+{
+int kdeger = random(0,255);
+int ydeger = random(0,255);
+int mdeger = random(0,255);
+
+analogWrite(kled, kdeger);
+analogWrite(yled, ydeger);
+analogWrite(mled, mdeger);
+delay(1000);
 }
