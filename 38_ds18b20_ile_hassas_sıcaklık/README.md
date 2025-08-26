@@ -9,10 +9,6 @@
 - Jumper kablolar
 - İlgili sensör/modüller
 
-## Devre Şeması
-```
-/* Devre şeması burada detaylandırılacaktır. */
-```
 
 ## Bağlantılar (Özet)
 - Sensör VCC -> 5V
