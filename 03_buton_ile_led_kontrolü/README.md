@@ -13,16 +13,7 @@
 - Breadboard
 - Kablolar
 
-## Devre Şeması
-Aşağıdaki ASCII diyagram hızlı referans içindir. Görsel şema (Fritzing/şematik) eklenebilir.
-```
 
-+5V ---[10k]---+--- D2
-                                    ( Button )
-                     GND -------------+
-D13 --R220--> LED --> GND
-
-```
 
 ## Bağlantılar (Özet)
 - Buton -> D2 (pull-down 10k)
