@@ -10,11 +10,6 @@
 - Jumper kablolar
 - İlgili sensör/modüller
 
-## Devre Şeması
-Aşağıdaki ASCII diyagram hızlı referans içindir. Görsel şema (Fritzing/şematik) eklenebilir.
-```
-/* Devre şeması burada detaylandırılacaktır. */
-```
 
 ## Bağlantılar (Özet)
 - Sensör VCC->5V
