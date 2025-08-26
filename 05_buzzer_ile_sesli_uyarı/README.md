@@ -9,11 +9,7 @@
 - Piezo buzzer (aktif veya pasif)
 - Kablolar
 
-## Devre Şeması
-Aşağıdaki ASCII diyagram hızlı referans içindir. Görsel şema (Fritzing/şematik) eklenebilir.
-```
-D8 -> Buzzer -> GND
-```
+
 
 ## Bağlantılar (Özet)
 - Buzzer (+) -> D8
