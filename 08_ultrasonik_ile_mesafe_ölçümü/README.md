@@ -9,11 +9,7 @@
 - HC-SR04 ultrasonik sensör
 - Kablolar
 
-## Devre Şeması
-Aşağıdaki ASCII diyagram hızlı referans içindir. Görsel şema (Fritzing/şematik) eklenebilir.
-```
-Trig->D9, Echo->D10, VCC->5V, GND->GND
-```
+
 
 ## Bağlantılar (Özet)
 - HC-SR04 VCC -> 5V
