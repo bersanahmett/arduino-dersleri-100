@@ -10,15 +10,7 @@
 - 10kΩ
 - Breadboard
 
-## Devre Şeması
-Aşağıdaki ASCII diyagram hızlı referans içindir. Görsel şema (Fritzing/şematik) eklenebilir.
-```
 
-5V ---[LDR]---+--- A0
-              |
-             [10k]
-              |
-             GND
 
 ```
 
