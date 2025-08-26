@@ -11,11 +11,7 @@
 - Breadboard
 - Jumper kablolar
 
-## Devre Şeması
-Aşağıdaki ASCII diyagram hızlı referans içindir. Görsel şema (Fritzing/şematik) eklenebilir.
-```
-Pin13 --R220--> LED --> GND
-```
+
 
 ## Bağlantılar (Özet)
 - LED (+) -> 220Ω -> Pin 13
