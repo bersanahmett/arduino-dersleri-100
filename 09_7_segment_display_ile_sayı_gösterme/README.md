@@ -10,11 +10,6 @@
 - 220Ω x7
 - Breadboard
 
-## Devre Şeması
-Aşağıdaki ASCII diyagram hızlı referans içindir. Görsel şema (Fritzing/şematik) eklenebilir.
-```
-a,b,c,d,e,f,g -> D2..D8; ortak katot -> GND
-```
 
 ## Bağlantılar (Özet)
 - a->D2
