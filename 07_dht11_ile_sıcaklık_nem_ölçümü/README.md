@@ -10,11 +10,7 @@
 - 10kΩ (gerekirse)
 - Kablolar
 
-## Devre Şeması
-Aşağıdaki ASCII diyagram hızlı referans içindir. Görsel şema (Fritzing/şematik) eklenebilir.
-```
-D2 -> DHT11 data; 5V ve GND bağlantıları
-```
+
 
 ## Bağlantılar (Özet)
 - DHT11 VCC -> 5V
