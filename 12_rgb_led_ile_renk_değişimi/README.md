@@ -10,11 +10,7 @@
 - 220Ω x3
 - Breadboard
 
-## Devre Şeması
-Aşağıdaki ASCII diyagram hızlı referans içindir. Görsel şema (Fritzing/şematik) eklenebilir.
-```
-R->D9, G->D10, B->D11; ortak katot->GND
-```
+
 
 ## Bağlantılar (Özet)
 - R->D9 (R220)
