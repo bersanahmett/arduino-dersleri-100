@@ -10,11 +10,6 @@
 - Harici 5V (önerilir)
 - Kablolar
 
-## Devre Şeması
-Aşağıdaki ASCII diyagram hızlı referans içindir. Görsel şema (Fritzing/şematik) eklenebilir.
-```
-Servo: VCC->5V, GND->GND, SINYAL->D9
-```
 
 ## Bağlantılar (Özet)
 - Servo sinyal -> D9
