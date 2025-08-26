@@ -10,11 +10,7 @@
 - LCD 16x2 + I2C backpack (0x27 yaygın)
 - Kablolar
 
-## Devre Şeması
-Aşağıdaki ASCII diyagram hızlı referans içindir. Görsel şema (Fritzing/şematik) eklenebilir.
-```
-SDA->A4, SCL->A5 (UNO); DHT11 DATA->D2
-```
+
 
 ## Bağlantılar (Özet)
 - LCD VCC->5V, GND->GND, SDA->A4, SCL->A5
