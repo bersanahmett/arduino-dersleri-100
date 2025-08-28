@@ -1,11 +1,23 @@
-// Servo ile Otomatik Kapı Sistemi
-// Başlangıç iskeleti — giriş/çıkış pinlerini ve temel döngüyü yapılandırın.
+int sensor = 2; 
+int deger = 0;
 
-void setup() {{
-  // pinMode(...);
-  // Serial.begin(9600);
-}}
+#include <Servo.h> 
+Servo motor; 
+ 
+void setup() {
+pinMode(sensor, INPUT);  
+motor.attach(9);  
+}
+ 
+void loop(){
+  
+motor.write(0);
+deger = digitalRead(sensor); 
+if (deger == HIGH) {
 
-void loop() {{
-  // TODO: Sensör verisini oku, işle ve çıktıyı ver.
-}}
+ motor.write(180);
+ delay(5000);
+}
+
+}
+
